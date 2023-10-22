@@ -1,4 +1,45 @@
+# Konfigurasi situs web Netlify
+[build]
+  # Direktori situs web Anda yang akan dibangun oleh Netlify
+  base = "public"
+  # Perintah yang akan dijalankan untuk membangun situs web Anda
+  command = "npm run build"  # Gantilah dengan perintah build Anda
+
+# Konfigurasi untuk penyedia domain kustom
+[build.environment]
+  # Atur variabel-variabel lingkungan yang diperlukan untuk konfigurasi domain kustom
+  # Contoh: GITHUB_TOKEN = "token-anda"
+
+# Konfigurasi untuk penyesuaian pengalihan
 [[redirects]]
-from = "/*"
-to = "/indax.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Konfigurasi untuk header dan pengaturan lingkungan
+[[headers]]
+  # Atur header untuk cache konten statis selama 1 tahun
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+# Konfigurasi untuk pengaturan rewrites
+[[redirects]]
+  # Rewrite untuk menangani rute di situs web Anda
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Konfigurasi untuk pemeriksaan status
+[[headers]]
+  # Pemeriksaan status 200 untuk semua permintaan
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+# Konfigurasi untuk pemeriksaan status
+[[headers]]
+  # Pemeriksaan status 200 untuk semua permintaan
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
