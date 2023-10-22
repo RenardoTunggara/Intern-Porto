@@ -1,0 +1,433 @@
+
+.UpperFrame {
+position: absolute;
+background: linear-gradient(180deg, rgba(92, 155, 230, 0.75) 15.63%, rgba(92, 155, 230, 0.42) 54.69%, rgba(92, 155, 230, 0) 98.44%);
+height: 205px;
+}
+
+.botframe{
+  position: absolute;
+}
+.footer{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.email{
+  position: absolute;
+  top: 6140;
+  left: 40px;
+}
+.instagram{
+  position: absolute;
+  top: 6245;
+  left: 40;
+}
+.WA {
+  position: absolute;
+  top: 6350;
+  left: 40px;
+}
+
+.email, .nam{
+  display: inline-block;
+}
+.instagram, .nai{
+  display: inline-block;
+}
+.WA, .now {
+  display: inline-block;
+}
+
+.nam, .nai, .now{
+  position: relative;
+  bottom: 45px;
+}
+
+.botframe{
+  position: absolute;
+  top: 6300;
+  right: 0px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-content{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  right: 25px;
+}
+.Profile-home, .Project-home, .Skill-home, .Contact-home{
+  position: absolute;
+  top: 38px;
+    display: inline-block;
+    margin-right: 65px;
+    position: relative;
+    color: #2E62E7;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.face {
+    position: relative;
+    right: 220px;
+    z-index: 1;
+    top : 185px;
+    height: auto; 
+    width: auto;
+  }
+  
+.facebg {
+    position: relative;
+    z-index: 0;
+    left: -717px;
+    top : 185px;
+    height: auto;
+    width: auto;
+  }
+
+.Ellipse{
+  justify-content: center;
+  position: relative;
+  left: 190px;
+  bottom: 211px;
+}
+
+
+.face, .facebg{
+  display: inline-block;
+}
+.profile,.AboutMe1{
+    display: inline-block;
+    margin-left: 400px;
+}
+
+  .name {
+    text-decoration: underline;
+    text-decoration-color: #2E62E7;
+    font-size: 33px;
+  }
+  
+  .university {
+    font-weight: bold;
+    font-size: 33px;
+  }
+
+  .AboutMe{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    right: 25px;
+  }
+
+.AboutMe1{
+    position: absolute;
+    bottom : 251px;
+    font-family: Inter;
+    font-size: 30px;
+    background: linear-gradient(180deg, #2E62E7 97.87%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+ 
+  .github, .linkedin{
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    top: 680px;
+    right:1100px;
+    margin-right: 111px;
+    color: white;
+    z-index: 5;
+  }
+
+/* ======================================================================================= */
+.skills{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 476px;
+    right: 150px;
+    z-index: 2;
+}
+
+  .ts, .ss{
+    display: inline-block;
+    position: relative;
+    font-size: 45px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content: center;
+  }
+  .ts{
+    bottom : 478px;
+  }
+
+.TS1, .TS2{
+  display: inline-block;
+  position: relative;
+  top: 95px;
+  right: 386px;
+  justify-content: center;
+}
+.TS2{
+  display: inline-block;
+  position: relative;
+  right: 346px;
+  justify-content: center;
+}
+  .skillC, .a{
+    display: inline-block;
+    position: relative;
+  
+  }
+  .skillJava, .b{
+    position: relative;
+    display: inline-block;
+
+ 
+  }
+  .skillPython, .c{
+    position: relative;
+    display: inline-block;
+
+  }
+
+  .skillMySQL, .d{
+    position: relative;
+    display: inline-block;
+
+  }
+
+  .a{
+    bottom: 50px;
+    font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .b{
+    bottom: 50px;
+    font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .c{
+    bottom: 50px;
+    font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .d{
+    bottom: 50px;
+    font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.skillHTML, .e{
+  display: inline-block;
+  position: relative;
+  }
+  .skillphp, .f{
+    display: inline-block;
+    position: relative;
+  }
+  .skillCs, .g{
+    display: inline-block;
+    position: relative;
+  }
+  .skillDocker, .h{
+    display: inline-block;
+    position: relative;
+  }
+
+  .e{
+    bottom: 50px;
+    font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .f{
+    bottom: 50px;
+    font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .g{
+    bottom: 50px;
+    font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .h{
+    bottom: 50px;
+    font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+.ssa{
+  position: relative;
+  right: 200px;
+  font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ssb{
+  position: relative;
+  right: 260px;
+  font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ssc{
+  position: relative;
+  right: 210px;
+  font-size: 35px;
+    background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ellipse2{
+  position: absolute;
+  top: 10px;
+  right: -500px;
+  z-index: 0;
+  opacity: 45%;
+}
+
+.ss1, .ss2, .ss3{
+  position: relative;
+  right: 170px;
+}
+.ss3 {
+  bottom: 400px ;
+  left: 125px;
+}
+
+.line {
+  display: flex;
+  position: relative;
+  right: 265px;
+  top: 450px;
+  justify-content: center;
+}
+
+.projects{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 25px;
+}
+
+.project-content, .project-step{
+  display: flex;
+  justify-content: center;
+}
+
+.project-journey{
+  justify-content: center;
+  font-size: 65px;
+  background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  top: 575px;
+  left: 855px;
+}
+
+.project-step{
+  position: relative;
+  justify-content: center;
+  left: 425px;
+}
+.step{
+  position: absolute;
+  top: 675px;
+  left: -400px;
+  justify-content: center;
+}
+
+.p1{
+  position: absolute;
+  top: 900px;
+  left: 310px;
+  z-index: 1;
+}
+
+.p2{
+  position: absolute;
+  top: 1282px;
+  left: 1130px;
+  z-index: 1;
+}
+
+.p3{
+  position: absolute;
+  top: 1650px;
+  left: 1020px;
+  z-index: 2;
+}
+
+.p4{
+  position: absolute;
+  top: 2157px;
+  left: 320px;
+  z-index: 2;
+}
+
+.p5{
+  position: absolute;
+  top: 2390px;
+  left: 190px;
+  z-index: 1;
+}
+
+.p6{
+  position: absolute;
+  top: 2888px;
+  left: 1048px;
+  z-index: 1;
+}
