@@ -136,9 +136,10 @@
     }
     .Ellipse{
         top: 640px;
-        left: -176px;
-        width: 85%;
-        height: auto;
+        left: -250px;
+        width: 450px;
+        height: 450px;
+        opacity: 45%;
     }
 
     .line{
