@@ -1,31 +1,44 @@
+body{
+  justify-content: center;
 
+}
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+}
 .UpperFrame {
 position: absolute;
 background: linear-gradient(180deg, rgba(92, 155, 230, 0.75) 15.63%, rgba(92, 155, 230, 0.42) 54.69%, rgba(92, 155, 230, 0) 98.44%);
 height: 205px;
+width: 100%;
 }
 
-.botframe{
-  position: absolute;
-}
 .footer{
   display: flex;
   justify-content: flex-start;
 }
+.botframe{
+  position: absolute;
+  background: linear-gradient(180deg, rgba(92, 155, 230, 0.75) 15.63%, rgba(92, 155, 230, 0.42) 54.69%, rgba(92, 155, 230, 0) 98.44%);
+  height: 205px;
+  width: 100%;
+  top: 5800;
+}
 
 .email{
   position: absolute;
-  top: 6140;
+  top: 5640;
   left: 40px;
 }
 .instagram{
   position: absolute;
-  top: 6245;
+  top: 5745;
   left: 40;
 }
 .WA {
   position: absolute;
-  top: 6350;
+  top: 5850;
   left: 40px;
 }
 
@@ -44,20 +57,15 @@ height: 205px;
   bottom: 45px;
 }
 
-.botframe{
-  position: absolute;
-  top: 6300;
-  right: 0px;
-}
-
 *{
   margin: 0;
   padding: 0;
 }
 
-.header{
+.profile{
+  position: relative;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .profile-content{
@@ -65,7 +73,7 @@ height: 205px;
   justify-content: center;
   position: relative;
   top: 100px;
-  right: 25px;
+  left: 250px;
 }
 .Profile-home, .Project-home, .Skill-home, .Contact-home{
   position: absolute;
@@ -77,7 +85,8 @@ height: 205px;
     font-size: 32px;
     font-family: Inter;
     font-weight: 400;
-    word-wrap: break-word
+    word-wrap: break-word;
+    z-index: 1;
 }
 
 .face {
@@ -94,26 +103,22 @@ height: 205px;
     z-index: 0;
     left: -717px;
     top : 185px;
-    height: auto;
-    width: auto;
+    height: 471px;width: 471px;
   }
 
 .Ellipse{
-  justify-content: center;
+  justify-content: left;
   position: relative;
   left: 190px;
   bottom: 211px;
+  opacity: 65%;
+  width: 900px;height: 380px
 }
 
 
 .face, .facebg{
   display: inline-block;
 }
-.profile,.AboutMe1{
-    display: inline-block;
-    margin-left: 400px;
-}
-
   .name {
     text-decoration: underline;
     text-decoration-color: #2E62E7;
@@ -125,23 +130,24 @@ height: 205px;
     font-size: 33px;
   }
 
-  .AboutMe{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 100px;
-    right: 25px;
-  }
 
 .AboutMe1{
     position: absolute;
-    bottom : 251px;
-    font-family: Inter;
+    top: 270px;
+    right: 100px;
     font-size: 30px;
     background: linear-gradient(180deg, #2E62E7 97.87%, rgba(61, 111, 239, 0.00) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    z-index: 2;
+    width: 800px; height: 600px;
+  }
+
+  .Ellipse{
+    position: absolute;
+    top : 251px;
+    left: 410px;
   }
 
  
@@ -154,6 +160,7 @@ height: 205px;
     margin-right: 111px;
     color: white;
     z-index: 5;
+    width:85px ;height:85px;
   }
 
 /* ======================================================================================= */
@@ -161,8 +168,7 @@ height: 205px;
     position: relative;
     display: flex;
     justify-content: center;
-    top: 476px;
-    right: 150px;
+    top: 676px;
     z-index: 2;
 }
 
@@ -179,6 +185,11 @@ height: 205px;
   .ts{
     bottom : 478px;
   }
+  .ss{
+    right: 10px;
+  }
+
+
 
 .TS1, .TS2{
   display: inline-block;
@@ -303,7 +314,8 @@ height: 205px;
 
 .ssa{
   position: relative;
-  right: 200px;
+  right: 143px;
+  bottom: 3px;
   font-size: 35px;
     background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
     background-clip: text;
@@ -312,7 +324,8 @@ height: 205px;
 }
 .ssb{
   position: relative;
-  right: 260px;
+  left: 69px;
+  bottom: 300px;
   font-size: 35px;
     background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
     background-clip: text;
@@ -321,7 +334,8 @@ height: 205px;
 }
 .ssc{
   position: relative;
-  right: 210px;
+  right: 30px;
+  top: 75px;
   font-size: 35px;
     background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
     background-clip: text;
@@ -336,35 +350,55 @@ height: 205px;
   z-index: 0;
   opacity: 45%;
 }
-
-.ss1, .ss2, .ss3{
+.crtv, .PS, .TW{
   position: relative;
-  right: 170px;
 }
+.crtv{
+  position: relative;
+  right: 200px;
+}
+
+.ss1, .ss2, .ss3{ 
+  position: relative;
+  width: 260;
+}
+
+.PS{
+  bottom: 275px;
+  left: 75px;;
+}
+
+.TW{
+  top: 110px;
+  right: 75px;
+}
+
+
 .ss3 {
   bottom: 400px ;
-  left: 125px;
 }
 
 .line {
   display: flex;
   position: relative;
-  right: 265px;
   top: 450px;
   justify-content: center;
 }
 
 .projects{
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: center;
-  left: 25px;
 }
 
-.project-content, .project-step{
+.project-content{
+  position: relative;
   display: flex;
   justify-content: center;
+  right: 930px;
+  bottom: 76px;
 }
+
 
 .project-journey{
   justify-content: center;
@@ -375,59 +409,89 @@ height: 205px;
   -webkit-text-fill-color: transparent;
   position: relative;
   top: 575px;
-  left: 855px;
+  right: -195px;
+}
+
+.project-journey1{
+  justify-content: center;
+  font-size: 35px;
+  background: linear-gradient(180deg, #2E62E7 34.9%, #2E62E7 65.1%, rgba(61, 111, 239, 0.00) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  top: 655px;
+  left: -85px;
 }
 
 .project-step{
   position: relative;
+  display: flex;
   justify-content: center;
-  left: 425px;
 }
 .step{
   position: absolute;
-  top: 675px;
-  left: -400px;
+  top: 725px;
   justify-content: center;
+}
+
+.p1,.p2,.p3{
+  height: 500px; width: 500px;
+}
+
+.p4{
+  width: 723px; height: 302px;
+}
+.p5{
+  width: 565px; height: 548px;
+}
+.p6{
+  width: 565px; height: 534px;
 }
 
 .p1{
   position: absolute;
-  top: 900px;
-  left: 310px;
-  z-index: 1;
+  top: 957px;
+  left: 306px;
+  z-index: 4;
 }
 
 .p2{
   position: absolute;
-  top: 1282px;
-  left: 1130px;
-  z-index: 1;
+  top: 1332px;
+  left: 1130;
+  z-index: 2;
 }
 
 .p3{
   position: absolute;
-  top: 1650px;
+  top: 1700px;
   left: 1020px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .p4{
   position: absolute;
-  top: 2157px;
+  top: 2207px;
   left: 320px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .p5{
   position: absolute;
-  top: 2390px;
+  top: 2440px;
   left: 190px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .p6{
   position: absolute;
-  top: 2888px;
+  top: 2918px;
   left: 1048px;
-  z-index: 1;
+  z-index: 2;
+}
+
+.crtv,.PS,.TW{
+  width:260px ;
+  height:260px ;
 }

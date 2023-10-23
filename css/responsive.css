@@ -1,0 +1,332 @@
+@media screen and (max-width: 1700px) {
+
+    .face, .facebg {
+        justify-self: center;
+        left: 0;
+        right: 0;
+        width: 85%;
+        height: auto;
+    }
+
+    .facebg {
+        position: absolute;
+        justify-self: center;
+        left: 0;
+        left: -25px;
+        top: 150px;
+        height: 471px;width: 471px;
+    }
+
+    .face{
+        position: relative;
+        justify-self: center;
+        left: -35px;
+        right: 0;
+    }
+
+    .github, .linkedin{
+        right: 445px;
+      }
+
+    .AboutMe1{
+        text-align: center;
+        top: 900px;
+        right: 300px;
+        width: 85%;
+        height: auto;
+    }
+    .Ellipse{
+        top: 870px;
+        left: -195px;
+        width: 85%;
+        height: auto;
+    }
+
+    .line{
+        top: 800px;
+        width: auto;
+    }
+
+
+
+    .skills{
+        top: 970px;
+    }
+
+    .projects, .project-step{
+        top: +300px;
+        width: 55%;
+        height: auto;
+        left: 327px;
+    }
+
+    .email{
+        position: absolute;
+        top: 5840;
+        left: 40px;
+      }
+      .instagram{
+        position: absolute;
+        top: 5945;
+        left: 40;
+      }
+      .WA {
+        position: absolute;
+        top: 6050;
+        left: 40px;
+      }
+
+    .botframe{
+        top: 6000px;
+    }
+
+}
+
+
+@media screen and (max-width: 1451px) {
+
+    
+    .face, .facebg {
+        justify-self: center;
+        left: 0;
+        right: 0;
+    }
+
+    .profile-content{
+
+        width: 590px;
+
+    }
+
+    .facebg {
+        position: absolute;
+        justify-self: center;
+        height: 300px;
+        width: 300px;
+        top: 156px;
+        left: -100px;
+    }
+
+    .face{
+        position: relative;
+        justify-self: center;
+        left: -100px;
+        right: 0;
+        width: 50%;
+        height: auto;
+        top: 203px;
+    }
+
+    .github, .linkedin{
+        position: relative;
+        top: 475px;
+        right: 365px;
+        width: 30px;
+        height: 30px;
+      }
+
+    .AboutMe1{
+        text-align: center;
+        top: 700px;
+        right: 246px;
+        width: 100%;
+        height: auto;
+    }
+    .AboutMe1,.name,.university{
+        font-size: 25;
+    }
+    .Ellipse{
+        top: 640px;
+        left: -176px;
+        width: 85%;
+        height: auto;
+    }
+
+    .line{
+        top: 800px;
+        width: auto;
+    }
+
+    .skills{
+        top: 1000px;
+    }
+    .crtv,.PS,.TW{
+        width:160px ;
+        height:160px ;
+    }
+
+    .skillC,.skillJava,.skillPython,.skillMySQL,.skillHTML,.skillPHP,.skillCs,.skillDocker{
+        width:80px ;
+        height:80px ;
+    }
+    .a,.b,.c,.d,.e,.f,.g,.h{
+        font-size: 24;
+        bottom: 29px;
+    }
+    
+
+    .ss1, .ss2, .ss3{ 
+        position: relative;
+        width: 180;
+      }
+
+    .ts{
+        bottom: 310px;
+        left: -20px;
+    }
+    .ts,.ss{
+        font-size: 32;
+    }
+    .TS2{
+        left: -258px;
+    }
+    .TS1{
+        left: -278px;
+    }
+
+.ss1{
+    left: 100px;
+    top: 30px;
+}
+.ssa{
+    left: -198px;
+}
+
+.ss2{
+    left: 0;
+    top: 100px;
+}
+.ssb  {
+    left: 85;
+    bottom: 290px;
+}
+.ss3{
+    bottom: 290px;
+    left: 50px;
+}
+.ssc{
+    top: 80px;
+    left: -80px;
+}
+
+.line{
+    top: 960;
+}
+
+.project-journey{
+font-size: 55;
+left: 63px;
+top: 700px;
+}
+
+
+.project-journey1{
+left: -150;
+    font-size: 25;
+    top: 770px;
+
+}    
+
+
+    .projects, .project-step{
+        top: 300px;
+        width: 65%;
+        height: auto;
+        left: 276px;
+    }
+
+    .step{
+        width: 110%;
+        height: auto;
+        top: 900px;
+        left: -138;
+    }
+
+
+    .p1,.p2{
+        height: 300px; width: 300px;
+      }
+    .p3{
+        height: 265px; width: 265px;
+      }
+      
+      .p4{
+        width: 423px; height: 76px;
+      }
+      .p5{
+        width: 325px; height: 308px;
+      }
+      .p6{
+        width: 335px; height: 304px;
+      }
+
+    .memory-game, .apple, .ufo,.net,.apotek,.cicd{
+        width: 100%;
+        height: auto;
+    }
+
+    .p1{
+        position: absolute;
+        top: 1030px;
+        left: 459px;
+        z-index: 4;
+      }
+      
+      .p2{
+        position: absolute;
+        top: 1253px;
+        left: 936px;
+        z-index: 2;
+      }
+      
+      .p3{
+        position: absolute;
+        top: 1470px;
+        left: 883px;
+        z-index: 3;
+      }
+      
+      .p4{
+        position: absolute;
+        top: 1749px;
+        left: 468px;
+        z-index: 3;
+      }
+      
+      .p5{
+        position: absolute;
+        top: 1896px;
+        left: 410px;
+        z-index: 2;
+      }
+      
+      .p6{
+        position: absolute;
+        top: 2160px;
+        left: 894px;
+        z-index: 2;
+      }
+
+
+
+    .email{
+        position: absolute;
+        top: 4240;
+        left: 40px;
+      }
+      .instagram{
+        position: absolute;
+        top: 4345;
+        left: 40;
+      }
+      .WA {
+        position: absolute;
+        top: 4450;
+        left: 40px;
+      }
+
+    .botframe{
+        top: 4400px;
+    }
+
+}
