@@ -94,7 +94,7 @@
 
     .profile-content{
 
-        width: 590px;
+        width: 390px;
 
     }
 
@@ -103,8 +103,8 @@
         justify-self: center;
         height: 300px;
         width: 300px;
-        top: 156px;
-        left: -100px;
+        top: 158px;
+        left: -198px;
     }
 
     .face{
@@ -112,15 +112,14 @@
         justify-self: center;
         left: -100px;
         right: 0;
-        width: 50%;
         height: auto;
-        top: 203px;
+        top: 173px;
     }
 
     .github, .linkedin{
         position: relative;
         top: 475px;
-        right: 365px;
+        right: 376px;
         width: 30px;
         height: 30px;
       }
@@ -128,8 +127,8 @@
     .AboutMe1{
         text-align: center;
         top: 700px;
-        right: 246px;
-        width: 100%;
+        right: 186px;
+        width: 500px;
         height: auto;
     }
     .AboutMe1,.name,.university{
@@ -236,15 +235,18 @@ left: -150;
     }
 
     .step{
-        width: 110%;
+        width: 133%;
         height: auto;
-        top: 900px;
-        left: -138;
+        top: 870px;
+        left: -210;
     }
 
 
-    .p1,.p2{
-        height: 300px; width: 300px;
+    .p1{
+        height: 290px; width: 290px;
+      }
+      .p2{
+        height: 310px; width: 310px;
       }
     .p3{
         height: 265px; width: 265px;
@@ -267,36 +269,36 @@ left: -150;
 
     .p1{
         position: absolute;
-        top: 1030px;
-        left: 459px;
+        top: 1018px;
+        left: 462px;
         z-index: 4;
       }
       
       .p2{
         position: absolute;
-        top: 1253px;
-        left: 936px;
+        top: 1238px;
+        left: 940px;
         z-index: 2;
       }
       
       .p3{
         position: absolute;
-        top: 1470px;
+        top: 1464px;
         left: 883px;
         z-index: 3;
       }
       
       .p4{
         position: absolute;
-        top: 1749px;
-        left: 468px;
+        top: 1753px;
+        left: 465px;
         z-index: 3;
       }
       
       .p5{
         position: absolute;
         top: 1896px;
-        left: 410px;
+        left: 397px;
         z-index: 2;
       }
       
